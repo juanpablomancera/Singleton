@@ -12,11 +12,7 @@ public class Database {
         }
         return instance;
     }
-
-    public static void setInstance(Database instance) {
-        Database.instance = instance;
-    }
-
+    
     public int getDatabaseUsages() {
         return DatabaseUsages;
     }
